@@ -1,0 +1,186 @@
+<!doctype html>
+<html lang="en" class="menu-overlay">
+
+	<head>
+		<meta charset="utf-8">
+		<meta http-equiv="X-UA-Compatible" content="chrome=1">
+
+		<title>Menu</title>
+
+		<meta name="apple-mobile-web-app-capable" content="yes">
+		<meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+
+		<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no, minimal-ui">
+
+		<link rel="stylesheet" href="reveal/css/menu/reveal-mod-menu.css">
+    <link rel="stylesheet" href="reveal/css/menu/2001-mod-menu.css" id="theme">
+      
+    <!-- CUSTOM -->
+    <link rel="stylesheet" href="reveal/css/styling.css">
+    <link rel="stylesheet" href="reveal/css/menu/menu-overlay.css">
+		
+    <link rel="stylesheet" href="reveal/css/media2.css">
+    <link rel="stylesheet" type="reveal/text/css" media="only screen and (max-device-width: 480px)" href="reveal/css/media2.css" />
+    <link rel="stylesheet" media="all" href="reveal/css/media2.css">
+      
+    <!-- PLUGINS -->
+    <link rel="stylesheet" href="reveal/lib/ven/animateCSS/animate.min.css">
+    <link rel="stylesheet" href="reveal/lib/ven/animateCSS/animate.css">
+      
+    <!-- Overlay -->
+        <link rel="stylesheet" href="reveal/lib/ven/overlay/overlay.css">
+
+    
+		<!-- Printing and PDF exports -->
+		<!-- script>
+			var link = document.createElement( 'link' );
+			link.rel = 'stylesheet';
+			link.type = 'text/css';
+			link.href = window.location.search.match( /print-pdf/gi ) ? 'reveal/css/print/pdf.css' : 'reveal/css/print/paper.css';
+			document.getElementsByTagName( 'head' )[0].appendChild( link );
+		</script -->
+
+		<!--[if lt IE 9]>
+		<script src="lib/js/html5shiv.js"></script>
+		<![endif]-->
+      
+      <style>
+      .reveal.overview {
+    /* -webkit-perspective-origin: 50% 50%; */
+    /* perspective-origin: 50% 50%; */
+    /* -webkit-perspective: 700px; */
+    /* perspective: 700px; */
+visibility: hidden;
+    display: inherit;
+          }
+          .slides {
+    width: 260%;
+    height: 260%;
+}
+      </style>
+      
+	</head>
+
+	<body class="menu-overlay animated zoomIn">
+
+		<div class="reveal">
+			<div class="slides">
+
+				<section class="headers animated zoomIn" data-background="rgba(0, 0, 255, 0.45)" data-state="nikeACG" style="top: 0;">
+            <!--rgba(0, 0, 255, 0.5), rgba(30,32,43,0.7), rgba(47, 59, 68, 0.7)-->
+            <div class="menu-overlay header">
+                
+                <h2 class="headers">
+                    <img class="menu-overlay icon pHolder logo animated pulse" src="reveal/assets/ico/PS-ctrllr-tri-light.png"  alt="placeholder icon logo">Site-map
+                </h2>
+                <nav class="menu">
+                    <ul class="nav">
+                      <li><a class="nav fade-Out" href="revealindex.html#/main">Home</a></li>
+                      <li><a class="nav fade-Out" href="revealindex.html#/1">Projects</a></li>
+                      <li><a class="nav fade-Out" href="revealindex.html#/2">Mission</a></li>
+                      <li><a class="nav fade-Out" href="revealindex.html#/3">Contact</a></li>
+                      <li><a class="nav fade-Out" href="revealindex.html#/about">About</a></li>
+                    </ul>
+                </nav>
+                
+            </div><!-- End of menu-overlay header -->
+            
+            <div class="menu-overlay coreContent">
+                
+                <h3 class="info">Info</h3>
+                <h5 class="info">
+                    <ul class="info">
+                        <li><a class="info selected fade-In" href="">Selected Works</a></li>
+                        <li><a class="info faq fade-In" href="faq.html">FAQ</a></li>
+                        <li><a class="info mediaPress fade-In" href="">Press</a></li>
+                        <li><a class="info blogNews fade-In" href="">Updates</a></li>
+                        <li><a class="info smediaIcons fade-In" href="">Favicons</a></li>
+                    </ul>
+                </h5>
+                
+            </div><!-- End of coreContent -->
+            
+            <div class="menu-overlay foot">
+                
+                <div class="footSection left">
+                    
+                    <h6 class="data tinyPrint">
+                        <span class="copy icon">&copy;</span> <span class="copy date">2016</span> <span class="name connie">Connie Leung</span>
+                    </h6>
+                    
+                </div>
+                
+                <div class="footSection right">
+                    <h6 class="data contact">
+                        <ul class="contact">
+                            <li>
+                                <a class="data email" href="mailto:info@company.com?subject=Let&#39;s%20Collaborate&body=Hey-Company-I&#39;ve-got-an-idea-...">info@company.com</a>
+                            </li>
+                            <li>
+                                Auto Updates
+                            </li>
+                        </ul>
+                        
+                    </h6>
+                </div>
+                
+            </div><!-- End of foot -->
+            
+        </section>
+          
+			</div><!-- End of Slides -->
+        
+      <!-- Custom Navigations -->
+        
+           <!-- Top Right Corner Hamburger -->
+            <aside class="control-menu-overlay" style="display: block;">
+                <a onclick="goBack()" href="revealindex.html" data-preview-link>
+                    <img src="reveal/assets/img/cross.png" />
+                </a>
+            </aside>
+
+            <!-- history.back() Syntax = button + onclick="goBack()" -->
+            <script>
+            function goBack() {
+                window.history.back();
+            }
+            </script>
+        
+    </div><!-- End of Reveal -->
+        
+    <!-- Optional libraries for code syntax highlighting and classList support in IE9 -->
+    <script src="reveal/lib/js/head.min.js"></script>
+    <script src="reveal/js/reveal.js"></script>
+
+    <script src="reveal/js/bg-iframe.js"></script>
+
+    <!-- Overlay -->
+    <script src="reveal/lib/ven/overlay/modernizr.overlay.js"></script>
+    <script src="reveal/lib/ven/overlay/classie.js"></script>
+    <script src="reveal/lib/ven/overlay/overlay.js"></script>
+
+		<script>
+
+			// Full list of configuration options available at:
+			// https://github.com/hakimel/reveal.js#configuration
+			Reveal.initialize({
+				controls: false,
+				progress: false,
+				history: false,
+				center: false,
+
+				transition: 'zoom', // none/fade/slide/convex/concave/zoom
+
+				// Optional reveal.js plugins
+				dependencies: [
+					{ src: 'reveal/lib/js/classList.js', condition: function() { return !document.body.classList; } },
+					{ src: 'reveal/plugin/highlight/highlight.js', async: true, callback: function() { hljs.initHighlightingOnLoad(); } },
+					//{ src: 'reveal/plugin/zoom-js/zoom.js', async: false },
+					{ src: 'reveal/plugin/notes/notes.js', async: true }
+				]
+			});
+
+		</script>
+
+	</body>
+</html>

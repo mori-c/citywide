@@ -1,0 +1,66 @@
+<!doctype html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+
+		<title>reveal.js</title>
+
+		<link rel="stylesheet" href="dist/reset.css">
+		<link rel="stylesheet" href="dist/reveal.css">
+		<link rel="stylesheet" href="dist/theme/moon.css" id="theme">
+
+		<!-- Theme used for syntax highlighted code -->
+		<link rel="stylesheet" href="plugin/highlight/monokai.css" id="highlight-theme">
+	</head>
+	<body>
+		<div class="reveal">
+			<div class="slides">
+				<section>Slide 1</section>
+				<section>Slide 2</section>
+			</div>
+		</div>
+
+		<script src="dist/reveal.js"></script>
+
+		<!-- standard plugin files -->
+		<script src="plugin/notes/notes.js"></script>
+		<script src="plugin/markdown/markdown.js"></script>
+		<script src="plugin/highlight/highlight.js"></script>
+
+		<!-- other plugin files -->
+		<script src="plugin/animate/plugin.js"></script>
+		<script src="plugin/anything/plugin.js"></script>
+		<script src="plugin/audio-slideshow/plugin.js"></script>
+		<script src="plugin/audio-slideshow/recorder.js"></script>
+		<script src="plugin/audio-slideshow/RecordRTC.js"></script>
+		<script src="plugin/chalkboard/plugin.js"></script>
+		<script src="plugin/chart/plugin.js"></script>
+		<script src="plugin/chart/Chart.js"></script>
+		<script src="plugin/chart/Chart.min.js"></script>
+		<script src="plugin/customcontrols/plugin.js"></script>
+		<script src="plugin/embed-tweet/plugin.js"></script>
+		<script src="plugin/fullscreen/plugin.js"></script>
+		<script src="plugin/math/plugin.js"></script>
+		<script src="plugin/math/math.js"></script>
+		<script src="plugin/math/math.esm.js"></script>
+		<script src="plugin/search/plugin.js"></script>
+		<script src="plugin/search/search.js"></script>
+		<script src="plugin/search/search.esm.js"></script>
+		<script src="plugin/zoom/plugin.js"></script>
+		<script src="plugin/zoom/zoom.js"></script>
+		<script src="plugin/zoom/zoom.esm.js"></script>
+
+		<script>
+			// More info about initialization & config:
+			// - https://revealjs.com/initialization/
+			// - https://revealjs.com/config/
+			Reveal.initialize({
+				hash: true,
+
+				// Learn about plugins: https://revealjs.com/plugins/
+				plugins: [ RevealMarkdown, RevealHighlight, RevealNotes ]
+			});
+		</script>
+	</body>
+</html>
